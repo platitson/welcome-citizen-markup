@@ -1,0 +1,67 @@
+.welcome .pictured {
+    padding: 157px 0;
+    background-image: url(../images/rectangle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blue, .blue h2 {
+    background-color: #0A345F;
+    color: white;
+}
+
+.welcome .blue {
+    padding: 110px 0;
+}
+
+.small-container {
+    width: 975px;
+    margin: auto;
+}
+
+.welcome-wrapper {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-wrapper p {
+    flex-basis: 49%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.welcome-wrapper p:first-child {
+    margin-right: 100px;
+}
+
+@media (max-width: 1200px) {
+    .welcome .pictured {
+        background-position: right;
+    }
+}
+
+@media (max-width: 975px) {
+    .small-container {
+        width: 75%;
+    }
+    .welcome .pictured {
+        padding: 120px 0;
+    }
+    .welcome .blue {
+        padding: 90px 0;
+    }
+    .welcome-wrapper {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 700px) {
+    .welcome-wrapper {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .blue .welcome-wrapper p {
+        margin: 0 0 20px;
+    }
+}

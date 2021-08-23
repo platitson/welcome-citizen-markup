@@ -1,0 +1,14 @@
+.shirt > .blue{
+    padding: 54px 0 66px;
+    text-align: center;
+}
+
+.shirt h2 {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 670px) {
+    .shirt > .blue{
+        padding: 54px 30px 66px;
+    }  
+}

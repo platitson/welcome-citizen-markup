@@ -1,0 +1,22 @@
+a.btn {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: #174D85;
+    border-radius: 2px;
+    border: 2px solid #174D85;
+    padding: 18px 0;
+    color: white;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #174D85;
+    box-shadow: 200px 0 white inset;
+}
+
+.nav-items a.btn {
+    padding: 12px 0;
+    width: 124px;
+}

@@ -1,0 +1,76 @@
+@import url(./header.css);
+@import url(./main.welcome.css);
+@import url(./main.partners.css);
+@import url(./main.jobs.css);
+@import url(./main.shirt.css);
+@import url(./footer.css);
+@import url(./buttons.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 1.1;
+    color: #0A345F;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: hsla(210, 81%, 21%, 0.8);
+    font-weight: normal;
+    margin: 15px 0 6px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 840px) {
+    h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 512px) {
+    h1 {
+        font-size: 55px;
+    }
+}
